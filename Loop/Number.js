@@ -20,8 +20,3 @@
 // let a = Number(prompt("Enter the a : "));
 // let b = Number(prompt("Enter the b : "));
 // document.writeln(`The Sum is ${a+b}`);
-
-// Create a usernaem.
-let Name = prompt("Enter name : ");
-let a = Name.length;
-document.writeln("Username : $",Name,a);
