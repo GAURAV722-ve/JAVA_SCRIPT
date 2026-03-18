@@ -1,7 +1,17 @@
-.content{
+/* .content{
     color: aqua;
 }
 
 .newClass {
     background-color: green;
+} */
+body {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.dark {
+    background-color: black;
+    color: white;
 }

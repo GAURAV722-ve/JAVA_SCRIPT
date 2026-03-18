@@ -1,9 +1,15 @@
-let newBtn = document.createElement("button");
-newBtn.innerText = "click me";
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click me";
 
-newBtn.style.color = "white";
-newBtn.style.backgroundColor  = "red";
+// newBtn.style.color = "white";
+// newBtn.style.backgroundColor  = "red";
 
-document.querySelector("body").prepend(newBtn);
+// document.querySelector("body").prepend(newBtn);
 
-let para = document.querySelector("p");
+// let para = document.querySelector("p");
+
+let modebtn = document.querySelector('#mode');
+
+modebtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
